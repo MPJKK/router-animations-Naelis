@@ -1,4 +1,4 @@
-# Routing - Angular tehtävä 8 (5, 6 ja 7 mukana), Anu Kakko
+# Pipes - Angular tehtävä 8 (5, 6 ja 7 mukana), Anu Kakko
 
 
 + Mukana tehtävät 5, 6 ja 7 pohjana, Google Mapsin Angular-versiolla
