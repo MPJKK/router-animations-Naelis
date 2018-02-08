@@ -1,10 +1,20 @@
 <p>Welcome</p>
 <div class="gallery">
-  <div *ngFor="let media of mediaArray">
-    <img [src]="mediaService.mediaUrl + media.thumbnail" [alt]="media.title">
+  <div *ngFor="let file of mediaArray">
+    <img class="gallery-img" [alt]="file.title" [src]="mediaService.mediaUrl + (file.filename | thumbnail: 'small')">
     <div>
-      <h5>{{ media.title }}</h5>
-      <p>{{ media.description }}</p>
+      <h5>{{ file.title }}</h5>
+      <p>{{ file.description }}</p>
     </div>
   </div>
 </div>
+
+
+<!-- // Vanha tapa ilman piippua:
+<div *ngFor="let media of mediaArray">
+  <img [src]="mediaService.mediaUrl + media.thumbnail" [alt]="media.title">
+  <div>
+    <h5>{{ media.title }}</h5>
+    <p>{{ media.description }}</p>
+  </div>
+</div>-->

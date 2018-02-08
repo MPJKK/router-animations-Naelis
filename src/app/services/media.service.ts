@@ -2,7 +2,7 @@ import {Injectable} from '@angular/core';
 import {HttpClient, HttpErrorResponse, HttpHeaders} from '@angular/common/http';
 import {Login} from '../models/login';
 import {Router} from '@angular/router';
-import {UploadComponent} from '../upload/upload.component';
+import {start} from 'repl';
 
 
 @Injectable()
@@ -42,10 +42,14 @@ export class MediaService {
         return this.http.get(this.apiUrl + '/users/user', options);
     }
 
-    uploadFile (fd, token) {
+    uploadFile(fd, token) {
         const options = {
             headers: new HttpHeaders().set('x-access-token', token),
         };
         return this.http.post(this.apiUrl + '/media', fd, options);
+    }
+
+    getNew() {
+        return this.http.get(this.apiUrl + '/media' + '?start=0&limit=10');
     }
 }

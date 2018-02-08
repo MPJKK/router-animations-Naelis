@@ -19,6 +19,7 @@ import { RegisterComponent } from './register/register.component';
 import { FrontComponent } from './front/front.component';
 import {MediaService} from './services/media.service';
 import { UploadComponent } from './upload/upload.component';
+import { ThumbnailPipe } from './pipes/thumbnail.pipe';
 
 
 @NgModule({
@@ -32,7 +33,8 @@ import { UploadComponent } from './upload/upload.component';
     LogoutComponent,
     RegisterComponent,
     FrontComponent,
-    UploadComponent
+    UploadComponent,
+    ThumbnailPipe
   ],
   imports: [
     BrowserModule,

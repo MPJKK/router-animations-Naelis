@@ -50,3 +50,7 @@ a:link { color: #45a5ff; text-decoration: none;}
 a:hover { color: orange; text-decoration: none;}
 a:visited { color: lightsteelblue; text-decoration: none;}
 a:visited:hover { color: orange; text-decoration: none;}
+
+/* Gallery style */
+.gallery { display: flex; margin: 3em; padding: 0; flex-direction: row; flex-flow: wrap }
+.gallery-img { margin: 0.5em; }
