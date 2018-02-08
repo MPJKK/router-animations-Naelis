@@ -1,7 +1,7 @@
-# Pipes - Angular tehtävä 8 (5, 6 ja 7 mukana), Anu Kakko
+# Router Animations - Angular tehtävä 9, Anu Kakko
 
 
-+ Mukana tehtävät 5, 6 ja 7 pohjana, Google Mapsin Angular-versiolla
++ Mukana tehtävät 5, 6, 7, 8 pohjana, Google Mapsin Angular-versiolla
 
 
 
