@@ -1,9 +1,9 @@
-# Routing - Angular tehtävä 7(5 ja 6 mukana), Anu Kakko
+# Routing - Angular tehtävä 8 (5, 6 ja 7 mukana), Anu Kakko
 
-+ Google Mapsin Angular-versiolla
 
-+ Unohdin vaihtaa repoa, kun aloin muokkaamaan 5/6 tehtävään tätä 7 tehtävän toiminnallisuutta.
-+ Tässä repossa on valmis toiminnallinen versio, jonka alkuvaiheita valitettavasti näkyy 5(6) -tehtävän repossa.
++ Mukana tehtävät 5, 6 ja 7 pohjana, Google Mapsin Angular-versiolla
+
+
 
 ------
 
