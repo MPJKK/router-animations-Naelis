@@ -1,7 +1,11 @@
-# Routing - Angular tehtävä 7(6 ulkoasulla), Anu Kakko
+# Routing - Angular tehtävä 7(5 ja 6 mukana), Anu Kakko
 
 + Google Mapsin Angular-versiolla
-+ Ulkoasu muokattu tehtävä 6 mukaisesti
+
++ Unohdin vaihtaa repoa, kun aloin muokkaamaan 5/6 tehtävään tätä 7 tehtävän toiminnallisuutta.
++ Tässä repossa on valmis toiminnallinen versio, jonka alkuvaiheita valitettavasti näkyy 5(6) -tehtävän repossa.
+
+------
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
 
