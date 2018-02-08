@@ -1,6 +1,6 @@
 # Router Animations - Angular tehtävä 9, Anu Kakko
 
-
++ Kesken (To 8.2.)
 + Mukana tehtävät 5, 6, 7, 8 pohjana, Google Mapsin Angular-versiolla
 
 
