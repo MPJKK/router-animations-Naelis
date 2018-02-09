@@ -1,6 +1,19 @@
-<form (submit)="upload()">
-    <input [(ngModel)]="file.title" type="text" name="title" placeholder="title">
-    <input [(ngModel)]="file.description" type="text" name="description" placeholder="description">
-    <input type="file" name="file" (change)="setFile($event)">
-    <button>Upload</button>
-</form>
+<div class="aligner">
+    <div class="form-style">
+        <p class="mat-body-1">
+            Upload file:
+        </p>
+        <br>
+    </div>
+    <div class="form-style">
+
+        <form (submit)="upload()">
+            <input [(ngModel)]="file.title" type="text" name="title" placeholder="title">
+            <input [(ngModel)]="file.description" type="text" name="description" placeholder="description">
+            <input type="file" name="file" (change)="setFile($event)">
+            <br>
+            <br>
+            <button>Upload</button>
+        </form>
+    </div>
+</div>

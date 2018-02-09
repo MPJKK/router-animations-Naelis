@@ -1,4 +1,4 @@
-<p>Welcome</p>
+<p class="mat-body-1" style="padding-left: 3em;">Displaying 10 newest images...</p>
 <div class="gallery">
   <div *ngFor="let file of mediaArray">
     <img class="gallery-img" [alt]="file.title" [src]="mediaService.mediaUrl + (file.filename | thumbnail: 'small')">

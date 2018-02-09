@@ -11,13 +11,16 @@ import {UploadComponent} from './upload/upload.component';
 
 const routes: Routes = [
     {
-        path: 'setup', component: SetupComponent
+        path: 'setup', component: SetupComponent,
+        data: { state: 'setup'}
     },
     {
-        path: 'routes', component: RoutesComponent
+        path: 'routes', component: RoutesComponent,
+        data: { state: 'routes' }
     },
     {
-        path: 'map', component: MapComponent
+        path: 'map', component: MapComponent,
+        data: { state: 'map' }
     },
     {
         path: '',
@@ -27,10 +30,12 @@ const routes: Routes = [
     {
         path: 'login',
         component: LoginComponent,
+        data: { state: 'login'}
     },
     {
         path: 'register',
         component: RegisterComponent,
+        data: { state: 'register' }
     },
     {
         path: 'logout',
@@ -39,11 +44,14 @@ const routes: Routes = [
     {
         path: 'front',
         component: FrontComponent,
+        data: { state: 'front' }
     },
     {
         path: 'upload',
         component: UploadComponent,
+        data: { state: 'upload'}
     },
+    { path: '**', redirectTo: '/login' }
 ];
 
 @NgModule({

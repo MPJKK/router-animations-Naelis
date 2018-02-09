@@ -1,11 +1,19 @@
+<div class="aligner">
+<div class="form-style">
+<p class="mat-body-1">
+  Register as a new user:
+</p>
+<br>
+
 <form (submit)="register()">
-  <input [(ngModel)]="user.username" type="text" name="username">
+  <input [(ngModel)]="user.username" type="text" name="username" placeholder="username">
+  <input [(ngModel)]="user.password" type="password" name="password" placeholder="password">
+  <input [(ngModel)]="user.email" type="text" name="email" placeholder="email">
+  <input [(ngModel)]="user.full_name" type="text" name="full_name" placeholder="full name">
   <br>
-  <input [(ngModel)]="user.password" type="password" name="password">
-  <br>
-  <input [(ngModel)]="user.email" type="text" name="email">
-  <br>
-  <input [(ngModel)]="user.full_name" type="text" name="full_name">
   <br>
   <button type="submit">Register</button>
 </form>
+
+</div>
+</div>

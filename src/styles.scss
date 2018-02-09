@@ -6,7 +6,7 @@
 // `headlines` and `body-1` levels.
 $custom-typography: mat-typography-config(
         $font-family: 'Roboto, monospace',
-        $headline: mat-typography-level(32px, 48px, 700),
+        $headline: mat-typography-level(22px, 38px, 700),
         $body-1: mat-typography-level(16px, 24px, 500),
         $display-4: mat-typography-level(100px, 90px, 800),
         $subheading-1: mat-typography-level(40px, 50px, 800)
@@ -54,3 +54,7 @@ a:visited:hover { color: orange; text-decoration: none;}
 /* Gallery style */
 .gallery { display: flex; margin: 3em; padding: 0; flex-direction: row; flex-flow: wrap }
 .gallery-img { margin: 0.5em; }
+
+/* Body style */
+.aligner { display: flex; align-items: center; justify-content: center; }
+.form-style { margin-left: 3em; margin-top: 2em; padding: 0; align-items: flex-start; }

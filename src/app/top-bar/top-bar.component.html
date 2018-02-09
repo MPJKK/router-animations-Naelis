@@ -1,19 +1,20 @@
+<div class="topslice">
 <h2 class="mat-caption">Angular tasks 5-9, Anu Kakko</h2>
 <h1 class="mat-display-4">Helsinki Public Transport
   <br>
-  Route Search
+  Route Search + mediaservice gallery
   <i class="material-icons md-48">directions_bus tram directions_subway</i>
 </h1>
+</div>
 
 
 
-
-<div class="container" style="display: flex; flex-direction: row;">
+<div class="flex-container" style="display: flex; flex-direction: row;">
   <nav>
     <ul>
           <li style="list-style: none; ">
             <i class="material-icons md-36 icon-color">dashboard</i>
-            <a [routerLink]="['setup']" class="mat-subheading-1">
+            <a [routerLink]="['setup']" routerLinkActive="active" class="mat-subheading-1">
               Setup
             </a>
           </li>
@@ -25,30 +26,34 @@
     <ul>
       <li style="list-style: none; ">
         <i class="material-icons md-36 icon-color">directions</i>
-        <a [routerLink]="['routes']" class="mat-subheading-1">
+        <a [routerLink]="['routes']" routerLinkActive="active" class="mat-subheading-1">
           Routes
         </a>
       </li>
-
     </ul>
   </nav>
 
   <nav>
-    <ul>
+    <ul style="list-style: none; display: flex; flex-direction: row;">
       <li>
-        <a [routerLink] = "'/register'">Register</a>
+        <i class="material-icons md-24 icon-color">person_add</i>
+        <a [routerLink] = "'/register'" routerLinkActive="active" class="mat-headline" style="margin-right: 0.5em">Register</a>
       </li>
       <li>
-        <a [routerLink] = "'/login'">Login</a>
+        <i class="material-icons md-24 icon-color">input</i>
+        <a [routerLink] = "'/login'" routerLinkActive="active" class="mat-headline" style="margin-right: 0.5em">Login</a>
       </li>
       <li>
-        <a [routerLink] = "'/logout'">Logout</a>
+        <i class="material-icons md-24 icon-color">cancel</i>
+        <a [routerLink] = "'/logout'" routerLinkActive="active" class="mat-headline" style="margin-right: 0.5em">Logout</a>
       </li>
       <li>
-        <a [routerLink] = "'/front'">Front page</a>
+        <i class="material-icons md-24 icon-color">home</i>
+        <a [routerLink] = "'/front'" routerLinkActive="active" class="mat-headline" style="margin-right: 0.5em">Front page</a>
       </li>
       <li>
-        <a [routerLink] = "'/upload'">Upload</a>
+        <i class="material-icons md-24 icon-color">file_upload</i>
+        <a [routerLink] = "'/upload'" routerLinkActive="active" class="mat-headline" style="margin-right: 0.5em">Upload</a>
       </li>
     </ul>
   </nav>

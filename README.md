@@ -1,6 +1,8 @@
 # Router Animations - Angular tehtävä 9, Anu Kakko
 
-+ Kesken (To 8.2.)
++ Tehtävä 9 valmis
++ Muokkasin myös aiempaa koodia toimimaan vähän paremmin animaatioiden kanssa.
++ Lisäsin ikonit kaikille navigaatio-itemeille
 + Mukana tehtävät 5, 6, 7, 8 pohjana, Google Mapsin Angular-versiolla
 
 
